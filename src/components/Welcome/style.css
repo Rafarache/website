@@ -1,0 +1,31 @@
+#fst_image {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    display: flex!important;
+    background-attachment: fixed;
+  
+}
+
+#table {
+    background-image: url("../../image/computer_code.jpg");
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: absolute;
+    text-align: center; 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bem_vindo {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 12vh;  
+    color: white;
+    font-weight: lighter; 
+}
