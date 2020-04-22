@@ -1,9 +1,15 @@
 import React from 'react';
 
-import Welcome from './components/Welcome/index'
+import Header from './components/Header/index'
+import Hero from './components/Hero/index'
+import About from './components/About/index'
 
 export default function App() {
   return (
-    <Welcome />
+    <div>
+      <Header />
+      <Hero />
+      <About />
+    </div>
   );
 }

@@ -4,7 +4,7 @@ import "./style.css"
 
 export default function Header () {
     return(
-        <nav>
+      <nav>
         <ul>
           <li>
             <a href="#home">Home</a>
