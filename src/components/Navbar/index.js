@@ -19,13 +19,13 @@ export default function Navbar () {
         <nav>
             <img src={Logo} alt="Logo" id="logo"/>
             <div id='icon_bar'>
-                <img src={IconHome} alt="Github" class='icon'/>
-                <img src={IconDirClosed} alt="IconDirClosed" class='icon'/>
-                <img src={IconDirMail} alt="IconDirMail" class='icon'/>
+                <a href='home' ><img src={IconHome} alt="Github" class='icon'/></a>
+                <a href='portiflio' ><img src={IconDirClosed} alt="IconDirClosed" class='icon'/></a>
+                <a href='contact' ><img src={IconDirMail} alt="IconDirMail" class='icon'/></a>
             </div>
             <div id='links_bar'>
-                <img src={Github} alt="Github" class='links'/>
-                <img src={Linkedin} alt="Linkedin" class='links'/>
+                <a href='https://github.com/Rafarache' ><img src={Github} alt="Github" class='links'/></a>
+                <a href='https://www.linkedin.com/in/rafael-marques-rache-838360122/' ><img src={Linkedin} alt="Linkedin" class='links'/></a>
             </div>
         </nav>
     )
