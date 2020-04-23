@@ -19,7 +19,7 @@ export default function Navbar () {
         <nav>
             <img src={Logo} alt="Logo" id="logo"/>
             <div id='icon_bar'>
-                <a href='home' ><img src={IconHome} alt="Github" class='icon'/></a>
+                <a href='/' ><img src={IconHome} alt="Github" class='icon'/></a>
                 <a href='portiflio' ><img src={IconDirClosed} alt="IconDirClosed" class='icon'/></a>
                 <a href='contact' ><img src={IconDirMail} alt="IconDirMail" class='icon'/></a>
             </div>
