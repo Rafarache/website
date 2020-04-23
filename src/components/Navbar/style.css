@@ -1,0 +1,17 @@
+#logo {
+    height: 4vw;
+    width: 4vw;
+}
+
+nav {
+
+    background-color: #181818;
+    flex-direction: column;
+    width: 7vw;
+    height: 100%;
+    padding: 2vw 2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
