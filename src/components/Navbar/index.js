@@ -8,6 +8,7 @@ export default function Navbar () {
     return(
         <nav>
             <img src={Logo} alt="Logo" id="logo"/>
+            <i class="fab fa-github"></i>
         </nav>
     )
 }
