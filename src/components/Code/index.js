@@ -10,7 +10,9 @@ export default function Code (props) {
         <div id='open_close'>
             <div id='button'>
                 <a onClick={props.handleStatusHide.bind(this)}>⊞</a>
-                { props.statusHide? <div id='bar'><div class='minimized'></div></div>:
+                { props.statusHide? 
+                    <div id='bar'><div class='minimized'></div></div>
+                    :
                     <div id='bar'><div class='function'></div></div>
                 }
             </div>

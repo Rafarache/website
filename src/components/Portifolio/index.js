@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 
 import Number_Row from '../Number_row/index'
-import Code from '../Code/index'
 import "./style.css"
 
 
 
-export default function Welcome () {
+export default function Portifolio () {
 
     const [hide, setHide] = useState(false);
 
@@ -17,7 +16,6 @@ export default function Welcome () {
     return(
         <div id='background'>
             <Number_Row statusHide={hide} handleStatusHide={setHiddeHandler}/>
-            <Code statusHide={hide} handleStatusHide={setHiddeHandler}/>
         </div>
     )
 }
