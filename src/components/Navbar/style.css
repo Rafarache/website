@@ -5,8 +5,7 @@
 nav {
 
     background-color: #181818;
-    flex-direction: column;
-    width: 9vw;
+    width: 9%;
     height: 100%;
     padding: 2vw 2vw;
     display: flex;
