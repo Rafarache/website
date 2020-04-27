@@ -14,17 +14,17 @@ import IconDirMail from '../../images/mail.png';
 
 import "./style.css"
 
-export default function Navbar () {
+export default function Navbar (props) {
     return(
         <nav>
-            <a href='/' ><img src={Logo} alt="Logo" id="logo"/></a>
+            <a onClick={props.setPage.bind(this, 0)} ><img src={Logo} alt="Logo" id="logo"/></a>
             <div id='icon_bar'>
-                <a href='portifolio' ><img src={IconDirClosed} alt="IconDirClosed" class='icon'/></a>
-                <a href='contact' ><img src={IconDirMail} alt="IconDirMail" class='icon'/></a>
+                <a onClick={props.setPage.bind(this, 1)} ><img src={IconDirClosed} alt="IconDirClosed" class='icon'/></a>
+                <a onClick={props.setPage.bind(this, 0)} ><img src={IconDirMail} alt="IconDirMail" class='icon'/></a>
             </div>
             <div id='links_bar'>
-                <a href='https://github.com/Rafarache' ><img src={Github} alt="Github" class='links'/></a>
-                <a href='https://www.linkedin.com/in/rafael-marques-rache-838360122/' ><img src={Linkedin} alt="Linkedin" class='links'/></a>
+                <a href='https://github.com/Rafarache' target="_blank"><img src={Github} alt="Github" class='links'/></a>
+                <a href='https://www.linkedin.com/in/rafael-marques-rache-838360122/' target="_blank"><img src={Linkedin} alt="Linkedin" class='links'/></a>
             </div>
         </nav>
     )

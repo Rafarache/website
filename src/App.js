@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {BrowserRouter, Route} from 'react-router-dom'
 
 import "./style.css"
@@ -8,13 +8,26 @@ import Navbar from './components/Navbar/index'
 
 
 export default function App() {
+
+  const [page, setPage] = useState(0);
+
+  const setPageHandler = (num) => {
+    setPage(num)
+  }
+
+  if (page === 0)
   return (
     <div id='main'>
-      <BrowserRouter>
-        <Route exact path="/" component={Welcome}/>
-        <Route exact path="/portifolio" component={Portifolio}/>
-        <Navbar />
-      </BrowserRouter>
+        <Welcome />
+        <Navbar setPage={setPageHandler} />
+    </div>
+  );
+
+  if (page === 1)
+  return (
+    <div id='main'>
+        <Portifolio />
+        <Navbar setPage={setPageHandler}/>
     </div>
   );
 }
