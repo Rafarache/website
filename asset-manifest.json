@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/deploy-react/static/css/main.8e7f06b5.chunk.css",
+    "main.js": "/deploy-react/static/js/main.79e69fce.chunk.js",
+    "main.js.map": "/deploy-react/static/js/main.79e69fce.chunk.js.map",
+    "runtime-main.js": "/deploy-react/static/js/runtime-main.b26e04c2.js",
+    "runtime-main.js.map": "/deploy-react/static/js/runtime-main.b26e04c2.js.map",
+    "static/js/2.36ef449a.chunk.js": "/deploy-react/static/js/2.36ef449a.chunk.js",
+    "static/js/2.36ef449a.chunk.js.map": "/deploy-react/static/js/2.36ef449a.chunk.js.map",
+    "index.html": "/deploy-react/index.html",
+    "precache-manifest.8f0d5417dcd12a9c36dad84df594fc5a.js": "/deploy-react/precache-manifest.8f0d5417dcd12a9c36dad84df594fc5a.js",
+    "service-worker.js": "/deploy-react/service-worker.js",
+    "static/css/main.8e7f06b5.chunk.css.map": "/deploy-react/static/css/main.8e7f06b5.chunk.css.map",
+    "static/js/2.36ef449a.chunk.js.LICENSE.txt": "/deploy-react/static/js/2.36ef449a.chunk.js.LICENSE.txt",
+    "static/media/app_Init.png": "/deploy-react/static/media/app_Init.2d34307c.png",
+    "static/media/app_Logo_Horizontal.png": "/deploy-react/static/media/app_Logo_Horizontal.fad06768.png",
+    "static/media/app_Opened.png": "/deploy-react/static/media/app_Opened.55be92f9.png",
+    "static/media/logo.png": "/deploy-react/static/media/logo.b6fd2b5c.png",
+    "static/media/style.css": "/deploy-react/static/media/mountain.de12181f.png",
+    "static/media/react.png": "/deploy-react/static/media/react.b6feda17.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b26e04c2.js",
+    "static/js/2.36ef449a.chunk.js",
+    "static/css/main.8e7f06b5.chunk.css",
+    "static/js/main.79e69fce.chunk.js"
+  ]
+}
