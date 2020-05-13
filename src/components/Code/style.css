@@ -1,0 +1,66 @@
+div {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+#code {
+    text-align: left;
+    color: white;
+    font-size: 2vh;
+    margin-left: 1vh;
+}
+
+#open_close {
+    overflow: hidden;
+}
+
+#button {
+    width: 2vh;
+    flex-direction: column;
+}
+
+#button > a {
+    opacity: 0.07;
+    color: white;
+    margin-top: 2vh;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+#bar {
+    padding: 0px 0.9vh;
+    margin: 0vh 0px;
+}
+
+#bar > div{
+    opacity: 0.07;
+    background-color: white;
+}
+
+.tab {
+    margin-left: 4vh;
+}
+
+.ola {
+    opacity: 1;
+    color: white;
+    font-size: 10vh;
+    font-weight: 900;
+}
+
+.opacity_low {
+    opacity: 0.07;
+}
+
+.ajust {
+    margin-top: 0.3vh;
+}
+
+.minimized {
+    height: 3vh;
+}
+
+.function {
+    height: 61vh;
+}

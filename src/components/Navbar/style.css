@@ -1,0 +1,47 @@
+#logo {
+    height: 4vw;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #181818;
+    width: 9%;
+    height: 100%;
+    padding: 2vw 2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#links_bar {
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: #181818;
+    height: auto;
+}
+
+.links {
+    height: 2vw;
+    width: 2vw;
+    opacity: 0.2;
+    margin: 2vh 0px;
+    cursor: pointer;
+}
+
+#icon_bar {
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  
+}
+
+.icon {
+    opacity: 0.2;
+    width: 3vw;
+    height: auto;
+    margin: 2vh 0px;
+    cursor: pointer;
+}
+
+

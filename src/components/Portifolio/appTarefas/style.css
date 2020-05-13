@@ -1,0 +1,59 @@
+#container {
+    height: 80vh;
+    padding-left: 4vw;
+    color: white;
+}
+
+#descricao {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#images {
+    padding: 5%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+}
+
+.code {
+    margin-top: 4vh;
+    background-color: white;
+    color: black;
+    padding: 1vh 2vh;
+    font-style: none;
+    text-decoration: none;
+}
+
+.phone {
+    width: 50%;
+}
+
+.logo {
+    height: 8vh;
+}
+
+.text {
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.ferramentas {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 4vh;
+}
+
+.low_opacity {
+    opacity: 0.3;
+}
