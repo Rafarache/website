@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./style.css"
 
-export default function NumberRow (props) {
+export default function Number_Row (props) {
 
     var limit_number = Math.ceil(window.innerHeight / 10)
     var list = [];
@@ -21,7 +21,7 @@ export default function NumberRow (props) {
           <ul>
             {list.map((num) => (
               <li key={num}>
-                {num}
+                <a>{num}</a>
               </li>
             ))}
           </ul>

@@ -14,14 +14,14 @@ import "./style.css"
 export default function Navbar (props) {
     return(
         <nav>
-            <a onClick={props.setPage.bind(this, 0)} class='logo-container' href=' '><img src={Logo} alt="Logo" id="logo"/></a>
+            <a onClick={props.setPage.bind(this, 0)} class='logo-container'><img src={Logo} alt="Logo" id="logo"/></a>
             <div id='icon_bar'>
-                <a onClick={props.setPage.bind(this, 1)} href=' ' ><img src={IconDirClosed} alt="IconDirClosed" class='icon'/></a>
-                <a onClick={props.setPage.bind(this, 2)} href=' ' ><img src={IconProfile} alt="IconProfile" class='icon'/></a>
+                <a onClick={props.setPage.bind(this, 1)} ><img src={IconDirClosed} alt="IconDirClosed" class='icon'/></a>
+                <a onClick={props.setPage.bind(this, 2)} ><img src={IconProfile} alt="IconProfile" class='icon'/></a>
             </div>
             <div id='links_bar'>
-                <a href='https://github.com/Rafarache' rel="noopener noreferrer" target="_blank"><img src={Github} alt="Github" class='links'/></a>
-                <a href='https://www.linkedin.com/in/rafael-marques-rache-838360122/' rel="noopener noreferrer" target="_blank"><img src={Linkedin} alt="Linkedin" class='links'/></a>
+                <a href='https://github.com/Rafarache' target="_blank"><img src={Github} alt="Github" class='links'/></a>
+                <a href='https://www.linkedin.com/in/rafael-marques-rache-838360122/' target="_blank"><img src={Linkedin} alt="Linkedin" class='links'/></a>
             </div>
         </nav>
     )

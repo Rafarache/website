@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import "./style.css"
-import NumberRow from "../Number_row/index"
+import Number_Row from "../Number_row/index"
 
 export default function About () {
 
@@ -13,7 +13,7 @@ export default function About () {
 
     return(
         <div id='background'>
-            <NumberRow statusHide={hide} handleStatusHide={setHiddeHandler}/>
+            <Number_Row statusHide={hide} handleStatusHide={setHiddeHandler}/>
             <div class='container'>
                 <p class='text'>
                     Meu nome é Rafael Marques Rache, sou estudante de Engenharia da Computação na UFRGS (Universidade Federal do Rio Grande do Sul).<br/>
