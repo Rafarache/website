@@ -19,7 +19,7 @@ export default function App() {
 
   if (page === 0)
   return (
-    <div id='main'>
+    <div class='main'>
         <Welcome />
         <Navbar setPage={setPageHandler} />
     </div>
@@ -27,7 +27,7 @@ export default function App() {
 
   if (page === 1)
   return (
-    <div id='main'>
+    <div class='main'>
         <Portifolio />
         <Navbar setPage={setPageHandler}/>
     </div>
@@ -35,7 +35,7 @@ export default function App() {
 
   if (page === 2)
   return (
-    <div id='main'>
+    <div class='main'>
         <About />
         <Navbar setPage={setPageHandler}/>
     </div>

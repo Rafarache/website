@@ -1,8 +1,9 @@
 #container {
-    height: 80vh;
+    height: 100%;
     padding-left: 4vw;
     color: white;
 }
+
 
 #descricao {
     padding-top: 10vh;
@@ -57,3 +58,64 @@
 .low_opacity {
     opacity: 0.3;
 }
+
+@media only screen and (max-width: 760px) {
+
+    #container {
+        display: block;
+        padding: 5vh 5vh;
+        height: 100%;
+    }
+
+    #descricao {
+        width: auto;
+        max-height: 50%;
+        padding-top: 0px;
+        padding-bottom: 5vh;
+    }
+
+    #images {
+        width: auto;
+        height: 50%;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .phone {
+        height: 100%;
+        width: auto;
+    }
+
+    .ferramentas {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        height: 6vw;
+    }
+
+    .logo {
+        height: 10vw;
+    }
+
+    .code {
+        margin-top: 4vw;
+        padding: 1vw 2vw;
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+
+    #images {
+        width: auto;
+        height: 50%;
+        padding: 0px;
+        justify-content: center;
+    }    
+
+    .phone {
+        width: 50%;
+        height: auto;
+    }
+}
+

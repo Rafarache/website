@@ -1,0 +1,24 @@
+#background {
+    background-image: url("../images/mountain.png");
+    background-size: 80vw;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-color: #1D1D1D;
+
+}
+
+@media only screen and (max-width: 760px) {
+
+    #background {
+        background-image: url("../images/mountain.png");
+        background-size: 100vh;
+        background-position-x: right;
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+        background-color: #1D1D1D;
+
+        height: 91%;
+    }
+    
+}

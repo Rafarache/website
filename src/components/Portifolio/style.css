@@ -1,9 +1,10 @@
-#background {
-    background-image: url("../../images/mountain.png");
-    background-size: 70vw;
-    background-position-x: right;
-    background-position-y: bottom;
-    background-repeat: no-repeat;
-    background-color: #1D1D1D;
+@import url('../../support_css/background.css');
 
+.portifolio {
+    display: block;
+    overflow-y: scroll
+}
+
+.portifolio::-webkit-scrollbar {
+    display: none;
 }
