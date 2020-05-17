@@ -1,0 +1,14 @@
+@import url('../../support_css/background.css');
+
+.text {
+    font-size: 2vh;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

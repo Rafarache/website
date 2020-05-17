@@ -44,4 +44,55 @@ nav {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 760px) {
+
+    nav {
+        height: 9%;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    #links_bar {
+        flex-direction: row-reverse;
+        align-items: center;
+        background-color: #181818;
+        width: auto;
+    }
+    
+    .links {
+        height: 2vh;
+        width: 2vh;
+        opacity: 0.2;
+        margin: 0px 1vh;
+        cursor: pointer;
+    }
+    
+    #icon_bar {
+        background-color: #181818;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        align-items: center;  
+    }
+    
+    .icon {
+        opacity: 0.2;
+        width: 3vh;
+        height: auto;
+        margin: 0px 2vh;
+        cursor: pointer;
+    }
+
+    #logo {
+        height: 4vh;
+    }
+
+    .logo-container {
+        justify-content: center;
+        margin: 0px 2vh;
+    }
+
+    
+}
 

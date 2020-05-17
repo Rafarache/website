@@ -2,9 +2,11 @@ import React, {useState} from 'react';
 import {BrowserRouter, Route} from 'react-router-dom'
 
 import "./style.css"
+
 import Welcome from './components/Welcome/index'
 import Portifolio from './components/Portifolio/index'
 import Navbar from './components/Navbar/index'
+import About from './components/About/index'
 
 
 export default function App() {
@@ -17,7 +19,7 @@ export default function App() {
 
   if (page === 0)
   return (
-    <div id='main'>
+    <div class='main'>
         <Welcome />
         <Navbar setPage={setPageHandler} />
     </div>
@@ -25,8 +27,16 @@ export default function App() {
 
   if (page === 1)
   return (
-    <div id='main'>
+    <div class='main'>
         <Portifolio />
+        <Navbar setPage={setPageHandler}/>
+    </div>
+  );
+
+  if (page === 2)
+  return (
+    <div class='main'>
+        <About />
         <Navbar setPage={setPageHandler}/>
     </div>
   );
