@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Number_Row from '../Number_row/index'
+import NumberRow from '../Number_row/index'
 import AppTarefas from '../Portifolio/appTarefas/index'
 import "./style.css"
 
@@ -16,7 +16,7 @@ export default function Portifolio () {
 
     return(
         <div id='background'>
-            <Number_Row statusHide={hide}
+            <NumberRow statusHide={hide}
                 handleStatusHide={setHiddeHandler}
                 notShow    
             />

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./style.css"
 
 import AppInit from '../../../images/app_Init.png';
@@ -13,7 +13,7 @@ export default function AppTarefas () {
         <div id='container'>
             <div id='descricao'>
                <img src={AppLogo} class='logo' alt="AppLogo" />
-                 <a class='low_opacity'><img src={Logo_React} class='ferramentas' alt="React"/></a>
+                 <a class='low_opacity' href=' '><img src={Logo_React} class='ferramentas' alt="React"/></a>
                 <p class='text'>Aplicatico de tarefas feito com React Native e Expo.<br/>&#9;O objetivo desse aplicativo é organizar as
                 suas tarefas diárias e trazer um calendário que possibilita a vizualição do comprimeto dessas tarefas no decorrer do mês.</p>
                 <a href='https://github.com/Rafarache/ReactNativeApp' class='code'>&#60; Code /&#62;</a>
