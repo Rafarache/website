@@ -16,7 +16,10 @@ export default function Portifolio () {
 
     return(
         <div id='background'>
-            <Number_Row statusHide={hide} handleStatusHide={setHiddeHandler}/>
+            <Number_Row statusHide={hide}
+                handleStatusHide={setHiddeHandler}
+                notShow    
+            />
             <div class='portifolio'>
                 <AppTarefas />
                 <AppTarefas />

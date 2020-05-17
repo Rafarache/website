@@ -15,7 +15,7 @@ export default function Number_Row (props) {
         }
         list.push(i.toString());
     }
-
+    if (props.notShow !== true) {
     return(
         <div id='number_row'>
           <ul>
@@ -27,4 +27,7 @@ export default function Number_Row (props) {
           </ul>
         </div>
     )
+    } else {
+      return null
+    }
 }
