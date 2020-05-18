@@ -5,12 +5,13 @@ import "./style.css"
 export default function Number_Row (props) {
 
   const [width,setWidth] = useState(window.innerWidth)
+  const [height,setHeight] = useState(window.innerHeight)
 
   window.onresize = function(event) {
     setWidth(window.innerWidth)
   };
 
-  var limit_number = Math.ceil(window.innerHeight / 10)
+  var limit_number = Math.ceil(height / 14)
   var list = [];
   var flag = false
 
