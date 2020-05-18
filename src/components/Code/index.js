@@ -25,7 +25,7 @@ export default function Code (props) {
                         his.age &#61; person .age;<br/><br/><br/></a>
                         <a class='ola'>Olá,<br/>
                         Eu sou o Rafael<br/>
-                        prazer conhece-lo</a>
+                        prazer em conhece-lo</a>
                         <a class='opacity_low ajust'><br/><br/><br/>return ( MyPortifilio )</a>
                         </p>    
                     }
