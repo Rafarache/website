@@ -4,33 +4,45 @@ div {
     display: flex;
 }
 
+.text {
+    display: block;
+}
+
+.button {
+    width: min-content;
+    margin-right: 2vh;
+    cursor: pointer;
+}
+
 #code {
     text-align: left;
     color: white;
     font-size: 2vh;
-    margin-left: 1vh;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    height: fit-content;
 }
 
 #open_close {
     overflow: hidden;
-}
-
-#button {
-    width: 2vh;
+    padding-top: 2vh;
+    padding-right: 6vh;
+    display: flex;
     flex-direction: column;
 }
 
-#button > a {
-    opacity: 0.07;
+#name_func {
+    height: 2vh;
     color: white;
-    margin-top: 2vh;
+    flex-direction: row;
     font-size: 2vh;
-    cursor: pointer;
 }
 
 #bar {
-    padding: 0px 0.9vh;
+    padding: 0.9vh 0.9vh;
     margin: 0vh 0px;
+    width: 2vh;
 }
 
 #bar > div{
@@ -40,6 +52,9 @@ div {
 
 .tab {
     margin-left: 4vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vh;
 }
 
 .ola {
@@ -47,36 +62,23 @@ div {
     color: white;
     font-size: 10vh;
     font-weight: 900;
+    height: min-content;
 }
 
 .opacity_low {
     opacity: 0.07;
-}
-
-.ajust {
-    margin-top: 0.3vh;
+    height: min-content;
 }
 
 .minimized {
-    height: 3vh;
+    height: 0vh;
 }
 
 .function {
-    height: 61vh;
-}
-
-@media only screen and (max-width: 990px) {
-
-    .function {
-        height: 74vh;
-    }
+    height: auto;
 }
 
 @media only screen and (max-width: 760px) {
-
-    .function {
-        height: 44vh;
-    }
 
     .ola {
         opacity: 1;
@@ -87,18 +89,3 @@ div {
 
 }
 
-@media only screen and (max-width: 500px) {
-
-    .function {
-        height: 50vh;
-    }
-
-}
-
-@media only screen and (max-width: 376px) {
-
-    .function {
-        height: 56vh;
-    }
-
-}

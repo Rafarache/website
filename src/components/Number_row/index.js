@@ -9,19 +9,23 @@ export default function Number_Row (props) {
 
   window.onresize = function(event) {
     setWidth(window.innerWidth)
+    setHeight(window.innerHeight)
+    console.log(Math.ceil(height / 14))
   };
 
   var limit_number = Math.ceil(height / 14)
-  var list = [];
+  let list = [];
   var flag = false
 
   for (var i = 1; i < limit_number +1; i++) {
-      if (props.statusHide === true && i >3 && flag === false) {
-        limit_number= limit_number+25;
+      if (props.statusHide === true && flag === false) {
+        limit_number= limit_number + 25;
         i=i+25;
         flag = true
+        console.log(i,limit_number)
       }
       list.push(i.toString());
+      
   }
 
   if (props.notShow !== true || width>760) {
