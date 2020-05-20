@@ -121,5 +121,9 @@ nav {
         justify-content: center;
         margin: 0px 2vh;
     }
+
+    .icon-name {
+        display: none;
+    }
 }
 
