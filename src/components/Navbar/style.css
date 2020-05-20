@@ -44,6 +44,29 @@ nav {
     cursor: pointer;
 }
 
+.icon-container {
+    width: 3vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-name {
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background-color:transparent;
+    opacity: 0.5;
+}
+
+.icon-no-name {
+    opacity: 0.2;
+    width: 3vw;
+    height: auto;
+    margin: 2vh 0px;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 760px) {
 
     nav {
@@ -84,6 +107,12 @@ nav {
         cursor: pointer;
     }
 
+    .icon-container {
+        width: 4vh;
+        height: auto;
+        margin: 0px 2vh;
+    }
+
     #logo {
         height: 4vh;
     }
@@ -92,7 +121,5 @@ nav {
         justify-content: center;
         margin: 0px 2vh;
     }
-
-    
 }
 
