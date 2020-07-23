@@ -22,7 +22,6 @@ export default function Portifolio () {
             />
             <div class='portifolio'>
                 <AppTarefas />
-                <AppTarefas />
             </div>
         </div>
     )
