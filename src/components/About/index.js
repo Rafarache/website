@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import "./style.css"
 import Number_Row from "../Number_row/index"
-import Animal from '../../images/animal.jpg'
+import Animal from '../../images/dsdsa.PNG'
 
 export default function About () {
 
